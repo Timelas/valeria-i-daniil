@@ -1,4 +1,6 @@
 import React from "react";
+import { useParams } from 'react-router-dom';
+import {guests} from '../../vendor/const';
 import names from "../../images/names.svg";
 import flower from "../../images/flower2.svg";
 import where from "../../images/where.svg";
@@ -8,11 +10,14 @@ import flowermapWhite from "../../images/flowerw.svg";
 import "./InfoDate.css";
 
 function InfoDate() {
+  let { id } = useParams();
+
+  const guest = guests.find(f => f.id === id);
   return (
     <section className="info-date">
       <div className="info-date__invitation">
-        <img className="info-date__who" alt="Валерия и Даниил" src={names}></img>
-        <p className="info-date__text">Мы рады пригласить вас на день рождение нашей семьи! В этот день мы собираемся сказать друг другу "ДА". В окружении самых близких и родных людей мы решили объединить наши сердца и судьбы!</p>
+        <p className="info-date__who">{guest.appeal} {guest.name}</p>
+        <p className="info-date__text">Мы рады пригласить {guest.pronoun} на день рождение нашей семьи! В этот день мы собираемся сказать друг другу "ДА". В окружении самых близких и родных людей мы решили объединить наши сердца и судьбы!</p>
         <div className="info-date__info">
           <p className="info-date__text info-date__text_position_right">26 СЕНТЯБРЯ<br /> 2023 ГОДА</p>
           <img className="info-date__flower" alt="цветок" src={flower}></img>
