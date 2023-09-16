@@ -220,8 +220,8 @@
     grid-template-columns: 1fr 30px 1fr;
     grid-template-areas:
       "rings line-rings text-rings"
-      "text-foto line-foto foto"
-      "glasses line-glasses text-glasses"
+      "text-glasses line-foto glasses"
+      "foto line-glasses text-foto"
       "text-plate line-plate plate"
       "cake line-cake text-cake"
       "text-music line-music music"

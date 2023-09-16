@@ -23,6 +23,7 @@
   font-size: 38px;
   line-height: 50px;
   margin: 50px 0 0;
+  width: 60%;
 }
 
 .info-date__info {
@@ -31,7 +32,7 @@
   gap: 50px;
   align-items: center;
   justify-content: center;
-  margin: 90px;
+  margin: 150px 0;
 }
 
 .info-date__block-text {
@@ -43,15 +44,20 @@
 .info-date__text_position_right {
   text-align: end;
   font-size: 34px;
+  width: 100%;
+  min-width: 370px;
 }
 
 .info-date__text_position_left {
   text-align: start;
   font-size: 34px;
+  width: 100%;
+  min-width: 370px;
 }
 
 .info-date__where_position_left {
   width: min-content;
+  align-self: center;
 }
 
 .info-date__flower {
@@ -126,17 +132,22 @@
   }
   
   .info-date__text {
-    font-size: 28px;
+    font-size: 26px;
     line-height: 32px;
     margin: 20px 0 0;
+    width: 70%;
   }
 
   .info-date__text_position_right {
     font-size: 24px;
+    width: 100%;
+    min-width: 300px;
   }
   
   .info-date__text_position_left {
     font-size: 24px;
+    width: 100%;
+    min-width: 300px;
   }
 
   .info-date__flower {
@@ -180,17 +191,19 @@
   }
 
   .info-date__text {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     margin: 10px 0 0;
   }
 
   .info-date__text_position_right {
     font-size: 20px;
+    min-width: 240px;
   }
   
   .info-date__text_position_left {
     font-size: 20px;
+    min-width: 240px;
   }
 
   .info-date__flower {
@@ -198,7 +211,7 @@
   }
 
   .info-date__info {
-    margin: calc(100vh / 7) 0 0;
+    margin: 100px 0;
   }
   
   .info-date__check-in {
@@ -236,7 +249,7 @@
   }
 
   .info-date__info {
-    margin: 150px 0 0;
+    margin: 100px 0;
   }
 
   .info-date__check-in {
@@ -356,5 +369,17 @@
   .info-date__flower-map-white {
     right: -70px;
     height: 240px;
+  }
+
+  .info-date__text {
+    width: 80%;
+  }
+
+  .info-date__info {
+    max-width: 25px 0;
+  }
+
+  .info-date__invitation {
+    max-height: 900px;
   }
 }

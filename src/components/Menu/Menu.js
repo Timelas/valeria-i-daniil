@@ -27,7 +27,7 @@ function Menu(props) {
             <li className="menu__link"><a href="#dresscode" className="menu__ancor">Дресс код</a></li>
             <li className="menu__link"><a href="#details" className="menu__ancor">Детали</a></li>
             <li className="menu__link"><a href="#rsvp" className="menu__ancor">RSVP</a></li>
-            <li className="menu__link"><a href="#questions" className="menu__ancor">Опрос</a></li>
+            {/* <li className="menu__link"><a href="#questions" className="menu__ancor">Опрос</a></li> */}
           </ul>
         ) : (
           <button className={`menu__button menu__button_${isChangeBurger && 'open'}`} onClick={onVisibleBurger}>
