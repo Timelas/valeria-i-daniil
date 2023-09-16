@@ -25,7 +25,7 @@ export const guests = [
         id: "grandma-and-grandpa"
     },
     {
-        name: "Валерия и Василий",
+        name: "Валерия и Василий!",
         appeal: "Дорогие",
         pronoun: "вас",
         id: "valeria-and-vasily"
@@ -50,7 +50,7 @@ export const guests = [
     },
     {
         name: "Юлия и Пётр!",
-        appeal: "Дорогие",
+        appeal: "Дорогие ",
         pronoun: "вас",
         id: "julia-and-peter"
     },
@@ -100,7 +100,7 @@ export const guests = [
         name: "",
         appeal: "Дорогая бабушка!",
         pronoun: "тебя",
-        id: "dear-grandmother"
+        id: "dear-grandma"
     },
     {
         name: "Ксения и Алексей!",
